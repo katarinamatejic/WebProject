@@ -1,0 +1,16 @@
+
+<div>
+  <button [routerLink]="['/vacuums']" type="button" class="btn btn-info"><b>Back</b></button>
+</div>
+<div>
+  <br>
+  <form [formGroup]="createVacuumControlForm" (submit)="createVacuumControl()" class="mb-5">
+    <div class="form-group mb-3">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter the vacuum's name"
+             [(ngModel)]="createRequest.name" [formControlName]="'name'">
+    </div>
+    <button type="submit" class="btn btn-primary"><b>Search</b></button>
+  </form>
+</div>
+

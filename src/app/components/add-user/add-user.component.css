@@ -1,0 +1,12 @@
+.btn-custom-blue {
+  background-color: blue; /* Boja pozadine */
+  color: white; /* Boja teksta */
+  border: none; /* Uklanjanje ivice */
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
